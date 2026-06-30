@@ -23,14 +23,6 @@ The project employs a hybrid architecture, using **Python** as the high-level co
 ##  System Architecture & Workflow
 
 
-```
-
-[User Speech] ➡️ (SpeechRecognition) ➡️ [Text Output] ➡️ (Gemini 2.5 Flash)
-│
-[Serial Data] ⬅️ (cvzone.SerialModule) ⬅️ [Servo Positions] ⬅️───┴──> [gTTS/Pygame Audio]
-
-```
-
 1.  **Input:** The robot listens via a local microphone using Google's Speech Recognition API.
 2.  **Cognition:** Text is formatted into a system prompt instructing Gemini to act as a personal assistant, routing intents via structural flags (`[DANCE]`, `[SONG]`).
 3.  **Execution:** Parsing logic strips the internal tags, converts text to audio utilizing Google Text-to-Speech (`gTTS`), and writes multi-channel positional matrices concurrently to the Arduino via Serial communication.
