@@ -123,7 +123,4 @@ Developed with pride by the students of the first Artificial Intelligence batch:
 * Nada
 * Yara
 
-```
-
-***
 
