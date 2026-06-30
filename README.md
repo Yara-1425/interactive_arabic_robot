@@ -1,4 +1,3 @@
-إليكِ ملف الـ **README.md** كاملاً ومتكاملاً ومقسماً بشكل احترافي، وجاهزاً للنسخ واللصق مباشرة في حسابك على GitHub:
 
 ```markdown
 # Nebras: Interactive Friendly Robot
