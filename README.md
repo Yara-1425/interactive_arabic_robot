@@ -1,5 +1,4 @@
 
-```markdown
 # Nebras: Interactive Friendly Robot
 
 Nebras is an intelligent, interactive robot designed to bridge the gap between AI-driven conversational agents and hardware automation. Built with a charming and friendly personality, Nebras leverages advanced Generative AI to communicate naturally in the Saudi Arabic dialect while performing synchronized physical gestures. 
@@ -8,7 +7,7 @@ The project employs a hybrid architecture, using **Python** as the high-level co
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 * **Generative AI Conversations:** Powered by Google's `gemini-2.5-flash` model, allowing natural, context-aware dialogue tailored to specific roles and regional dialects (Saudi Arabic).
 * **Audio-Visual UI Elements:** Uses localized audio cues (`listen.mp3`, `convert.mp3`) via `pygame` to intuitively signal the robot's state to the user.
@@ -21,7 +20,16 @@ The project employs a hybrid architecture, using **Python** as the high-level co
 
 ---
 
-## 🛠️ System Architecture & Workflow
+##  System Architecture & Workflow
+
+
+```
+
+[User Speech] ➡️ (SpeechRecognition) ➡️ [Text Output] ➡️ (Gemini 2.5 Flash)
+│
+[Serial Data] ⬅️ (cvzone.SerialModule) ⬅️ [Servo Positions] ⬅️───┴──> [gTTS/Pygame Audio]
+
+```
 
 1.  **Input:** The robot listens via a local microphone using Google's Speech Recognition API.
 2.  **Cognition:** Text is formatted into a system prompt instructing Gemini to act as a personal assistant, routing intents via structural flags (`[DANCE]`, `[SONG]`).
@@ -67,7 +75,7 @@ The embedded firmware runs a deterministic polling loop handling two main operat
 
 ---
 
-##  Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -122,3 +130,8 @@ Developed with pride by the students of the first Artificial Intelligence batch:
 * Shahad
 * Nada
 * Yara
+
+```
+
+***
+
