@@ -1,7 +1,7 @@
 
 # Nebras: Interactive Friendly Robot
 
-<img width="809" height="809" alt="image" src="https://github.com/user-attachments/assets/36b98815-9368-4012-a267-a1b269c56a4f" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/36b98815-9368-4012-a267-a1b269c56a4f" />
 
 
 Nebras is an intelligent, interactive robot designed to bridge the gap between AI-driven conversational agents and hardware automation. Built with a charming and friendly personality, Nebras leverages advanced Generative AI to communicate naturally in the Saudi Arabic dialect while performing synchronized physical gestures. 
