@@ -1,11 +1,9 @@
 
 # Nebras: Interactive Friendly Robot
 
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/36b98815-9368-4012-a267-a1b269c56a4f" />
 
 ---
-
-
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/36b98815-9368-4012-a267-a1b269c56a4f" />
 
 
 Nebras is an intelligent, interactive robot designed to bridge the gap between AI-driven conversational agents and hardware automation. Built with a charming and friendly personality, Nebras leverages advanced Generative AI to communicate naturally in the Saudi Arabic dialect while performing synchronized physical gestures. 
@@ -34,6 +32,9 @@ The project employs a hybrid architecture, using **Python** as the high-level co
 2.  **Cognition:** Text is formatted into a system prompt instructing Gemini to act as a personal assistant, routing intents via structural flags (`[DANCE]`, `[SONG]`).
 3.  **Execution:** Parsing logic strips the internal tags, converts text to audio utilizing Google Text-to-Speech (`gTTS`), and writes multi-channel positional matrices concurrently to the Arduino via Serial communication.
 4. **Hardware Override:** If the user triggers the IR sensor sequentially, the Arduino bypasses incoming serial commands to prioritize immediate local interactive gestures.
+
+## you can see Demo:
+https://drive.google.com/file/d/1-6hg6HjHhT9GD29x7gs3oL5CMMz5ntMN/view?usp=drivesdk
 
 ---
 
@@ -126,7 +127,7 @@ Ensure your local assets match the following directory structure before running 
 
 ---
 
-## 👥 Developers
+## Developers
 
 Developed with pride by the students of the first Artificial Intelligence batch:
 
