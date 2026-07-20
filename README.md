@@ -1,6 +1,10 @@
 
 # Nebras: Interactive Friendly Robot
 
+
+---
+
+
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/36b98815-9368-4012-a267-a1b269c56a4f" />
 
 
@@ -59,6 +63,11 @@ The project employs a hybrid architecture, using **Python** as the high-level co
 | **Right Servo (RServo)** | `Pin 9` | Controls right arm movement (and manual hardware wave). |
 | **Head Servo (HServo)** | `Pin 10` | Controls head orientation and horizontal panning. |
 | **IR Proximity Sensor** | `Pin 2` | Detects obstacle reflections for gesture-based interruption. |
+
+---
+
+<img width="231" height="320" alt="image" src="https://github.com/user-attachments/assets/1c92c7b1-5c8d-4459-8b3b-4849dcb185a0" />
+
 
 ---
 
