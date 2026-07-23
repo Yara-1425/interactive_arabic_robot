@@ -120,7 +120,7 @@ Ensure your local assets match the following directory structure before running 
 │   ├── listen.mp3
 │   ├── convert.mp3
 │   └── song.mpeg
-├── Nebras_Firmware.ino
+├── interactive_robot.ino
 └── main.py
 
 ```
