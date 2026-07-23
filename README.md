@@ -84,7 +84,7 @@ The embedded firmware runs a deterministic polling loop handling two main operat
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/Nebras-Robot.git](https://github.com/your-username/Nebras-Robot.git)
+git clone https://github.com/Yara-1425/interactive_arabic_robot
 cd Nebras-Robot
 
 ```
